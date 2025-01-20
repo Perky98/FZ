@@ -33,11 +33,14 @@ function App() {
         <img src={fz} className="logo" alt="logo" />
       </div>
       <h1>Futbalové zákulisie</h1>
-      <a href="https://www.instagram.com/futbalovezakulisie/" target="_blank">
-        <div className="button-social">
+     {/* <a href="https://www.instagram.com/futbalovezakulisie/" target="_blank">
+        <div className="button-social"> 
           <span>Instagram </span>
         </div>
-      </a>
+      </a>*/}
+        <div className="button-social">
+          <a href="https://www.instagram.com/futbalovezakulisie/" target="_blank">Instagram</a>
+        </div>
         <div className="button-social">
           <a href="https://www.facebook.com/futbalovezakulisie/" target="_blank">Facebook</a>
         </div>
